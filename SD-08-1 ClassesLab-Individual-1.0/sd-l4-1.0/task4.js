@@ -7,7 +7,7 @@ export class Player {
   console.log(`${this.name} has reached Level ${this.level}!`);
   }
   levelUp(){
-  let newlevel = ++this.level;
+  let newlevel = ++this.level; // Cuando se utiliza (++) antes del operando (++this.level), se llama "prefijo" y devuelve el valor después del incremento.
   console.log(`new level is ${newlevel}`);
   }
 }
